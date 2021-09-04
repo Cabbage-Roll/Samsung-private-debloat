@@ -1,0 +1,17 @@
+su
+mount -o rw,remount /system
+rm -r system/priv-app/BlockedNumberProvider
+rm -r system/priv-app/CallLogBackup
+rm -r system/priv-app/EmojiUpdater
+rm -r system/priv-app/GoogleBackupTransport
+rm -r system/priv-app/GoogleOneTimeInitializer
+rm -r system/priv-app/GooglePartnerSetup
+rm -r system/priv-app/RubinVersion23
+rm -r system/priv-app/SamsungCalendarProvider
+rm -r system/priv-app/SamsungDeviceHealthManagerService
+rm -r system/priv-app/SecDownloadProvider
+rm -r system/priv-app/SecSetupWizard_Global
+rm -r system/priv-app/SetupWizard
+rm -r system/priv-app/wallpaper-res
+mount -o ro,remount /system
+exit

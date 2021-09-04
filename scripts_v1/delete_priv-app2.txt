@@ -1,0 +1,24 @@
+su
+mount -o rw,remount /system
+rm -r system/priv-app/Accessibility
+rm -r system/priv-app/BeaconManager
+rm -r system/priv-app/DeviceTest
+rm -r system/priv-app/EasySetup
+rm -r system/priv-app/FBInstaller_NS
+rm -r system/priv-app/Fmm
+rm -r system/priv-app/FotaAgent
+rm -r system/priv-app/GalaxyAppsWidget_Phone_Dream
+rm -r system/priv-app/GoogleFeedback
+rm -r system/priv-app/GoogleRestore
+rm -r system/priv-app/Hearingdro_V7_P
+rm -r system/priv-app/IpsGeofence
+rm -r system/priv-app/KLMSAgent
+rm -r system/priv-app/SmartEpdgTestApp
+rm -r system/priv-app/SmartManager_v6_DeviceSecurity
+rm -r system/priv-app/SmartSwitchAssistant
+rm -r system/priv-app/SOAgent
+rm -r system/priv-app/StickerCenter
+rm -r system/priv-app/SVCAgent
+rm -r system/priv-app/UserDictionaryProvider
+mount -o ro,remount /system
+exit

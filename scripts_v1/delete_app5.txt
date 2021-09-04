@@ -1,0 +1,9 @@
+su
+mount -o rw,remount /system
+rm -r system/app/BookmarkProvider
+rm -r system/app/CompanionDeviceManager
+rm -r system/app/DsmsAPK
+rm -r system/app/EdmSimPinService
+rm -r system/app/KeyChain
+mount -o ro,remount /system
+exit

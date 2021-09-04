@@ -1,0 +1,42 @@
+su
+mount -o rw,remount /system
+rm -r system/app/AllshareFileShare
+rm -r system/app/AllshareMediaShare
+rm -r system/app/BBCAgent
+rm -r system/app/ChocoEUKor
+rm -r system/app/Chrome
+rm -r system/app/CoolEUKor
+rm -r system/app/DictDiotekForSec
+rm -r system/app/Drive
+rm -r system/app/Duo
+rm -r system/app/Facebook_stub
+rm -r system/app/FBAppManager_NS
+rm -r system/app/GearManagerStub
+rm -r system/app/Gmail2
+rm -r system/app/GoogleTTS
+rm -r system/app/KidsHome_Installer
+rm -r system/app/LinkSharing_v10
+rm -r system/app/Maps
+rm -r system/app/MSSkype_stub
+rm -r system/app/Music2
+rm -r system/app/Notes_Removable
+rm -r system/app/Photos
+rm -r system/app/RoseEUKor
+rm -r system/app/SamsungCalendar
+rm -r system/app/SamsungIMEv3.3MASS
+rm -r system/app/SamsungMembersStub
+rm -r system/app/SamsungTTS
+rm -r system/app/SBrowser_9.0_Removable
+rm -r system/app/SecurityLogAgent
+rm -r system/app/SmartReminder
+rm -r system/app/SmartSwitchAgent
+rm -r system/app/talkback
+rm -r system/app/UnifiedWFC
+rm -r system/app/UniversalMDMClient
+rm -r system/app/Videos
+rm -r system/app/Weather_SEP10.1
+rm -r system/app/WebManual
+rm -r system/app/WebViewStub
+rm -r system/app/YouTube
+mount -o ro,remount /system
+exit

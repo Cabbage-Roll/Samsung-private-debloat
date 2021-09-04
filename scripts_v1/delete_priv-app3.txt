@@ -1,0 +1,14 @@
+su
+mount -o rw,remount /system
+rm -r system/priv-app/CtsShimPrivPrebuilt
+rm -r system/priv-app/DownloadProviderUi
+rm -r system/priv-app/HwModuleTest
+rm -r system/priv-app/ManagedProvisioning
+rm -r system/priv-app/NSFusedLocation_v3.5
+rm -r system/priv-app/SamsungAccount_Star
+rm -r system/priv-app/SamsungDigitalWellbeing
+rm -r system/priv-app/SamsungMagnifier3
+rm -r system/priv-app/SKMSAgent
+rm -r system/priv-app/Turbo
+mount -o ro,remount /system
+exit

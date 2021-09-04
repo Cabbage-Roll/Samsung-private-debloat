@@ -1,0 +1,14 @@
+su
+mount -o rw,remount /system
+rm -r system/app/DAAgent
+rm -r system/app/DRParser
+rm -r system/app/EmergencyLauncher
+rm -r system/app/EmergencyModeService
+rm -r system/app/EmergencyProvider
+rm -r system/app/ImsSettings
+rm -r system/app/Personalization
+rm -r system/app/RcsSettings
+rm -r system/app/Stk
+rm -r system/app/Stk2
+mount -o ro,remount /system
+exit

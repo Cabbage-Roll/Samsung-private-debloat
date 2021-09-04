@@ -1,0 +1,21 @@
+su
+mount -o rw,remount /system
+rm -r system/app/AASAservice
+rm -r system/app/AutomationTest_FB
+rm -r system/app/BluetoothTest
+rm -r system/app/BuiltInPrintService
+rm -r system/app/KnoxAttestationAgent
+rm -r system/app/MDMApp
+rm -r system/app/PhotoTable
+rm -r system/app/SafetyInformation
+rm -r system/app/SecFactoryPhoneTest
+rm -r system/app/SecHTMLViewer
+rm -r system/app/SecureElement
+rm -r system/app/SecurityProviderSEC
+rm -r system/app/SetupWizardLegalProvider
+rm -r system/app/SPrintSpooler
+rm -r system/app/WallpaperBackup
+rm -r system/app/WifiGuider
+rm -r system/app/WlanTest
+mount -o ro,remount /system
+exit

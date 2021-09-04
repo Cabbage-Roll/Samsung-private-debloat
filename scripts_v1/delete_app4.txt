@@ -1,0 +1,21 @@
+su
+mount -o rw,remount /system
+rm -r system/app/BasicDreams
+rm -r system/app/BCService
+rm -r system/app/BluetoothMidiService
+rm -r system/app/BrightnessBackupService
+rm -r system/app/CarrierDefaultApp
+rm -r system/app/CtsShimPrebuilt
+rm -r system/app/GoogleCalendarSyncAdapter
+rm -r system/app/GoogleContactsSyncAdapter
+rm -r system/app/GooglePrintRecommendationService
+rm -r system/app/Omc
+rm -r system/app/PartnerBookmarksProvider
+rm -r system/app/ShortcutBackupService
+rm -r system/app/SilentLog
+rm -r system/app/SLocation
+rm -r system/app/SplitSoundService
+rm -r system/app/TetheringAutomation
+rm -r system/app/USBSettings
+mount -o ro,remount /system
+exit

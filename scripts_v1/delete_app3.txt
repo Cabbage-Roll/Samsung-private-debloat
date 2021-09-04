@@ -1,0 +1,15 @@
+su
+mount -o rw,remount /system
+rm -r system/app/ChromeCustomizations
+rm -r system/app/EasterEgg
+rm -r system/app/EasymodeContactsWidget81
+rm -r system/app/FactoryCameraFB
+rm -r system/app/Foundation
+rm -r system/app/GameOptimizer
+rm -r system/app/GameOptimizingService
+rm -r system/app/HiyaService
+rm -r system/app/SMusicPicker
+rm -r system/app/Traceur
+rm -r system/app/vsimservice
+mount -o ro,remount /system
+exit

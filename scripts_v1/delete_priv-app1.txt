@@ -1,0 +1,32 @@
+su
+mount -o rw,remount /system
+rm -r system/priv-app/ContainerAgent3
+rm -r system/priv-app/Excel_SamsungStub
+rm -r system/priv-app/FBServices
+rm -r system/priv-app/GalaxyApps_OPEN
+rm -r system/priv-app/HybridRadio_P
+rm -r system/priv-app/knoxanalyticsagent
+rm -r system/priv-app/KnoxCore
+rm -r system/priv-app/knoxvpnproxyhandler
+rm -r system/priv-app/OneDrive_Samsung_v3
+rm -r system/priv-app/PowerPoint_SamsungStub
+rm -r system/priv-app/SamsungBilling
+rm -r system/priv-app/SamsungCloudClient
+rm -r system/priv-app/SamsungContacts
+rm -r system/priv-app/SamsungExperienceService
+rm -r system/priv-app/SamsungSocial
+rm -r system/priv-app/SecEmail_P
+rm -r system/priv-app/SecMyFiles2018
+rm -r system/priv-app/SecureFolder
+rm -r system/priv-app/SHealthStub
+rm -r system/priv-app/SoundAlive_54
+rm -r system/priv-app/SPDClient
+rm -r system/priv-app/SPPPushClient
+rm -r system/priv-app/StoryService
+rm -r system/priv-app/ThemeCenter
+rm -r system/priv-app/ThemeStore
+rm -r system/priv-app/Velvet
+rm -r system/priv-app/VoiceNote_5.0_NR
+rm -r system/priv-app/Word_SamsungStub
+mount -o ro,remount /system
+exit
